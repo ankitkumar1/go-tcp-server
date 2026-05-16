@@ -40,3 +40,15 @@ It stays alive because of your nested loop structure (for { ... }). In raw TCP, 
 
 ===
 # Multi Threaded : multi_thread_tcp.go
+
+## How to Run
+
+```
+$ go run multi_thread_server.go
+```
+
+## How to connect from client side: Fire this command from multiple terminals and send some messages.
+
+```
+$ nc localhost 1729
+```
